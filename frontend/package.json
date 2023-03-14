@@ -1,0 +1,75 @@
+{
+  "name": "vue-calendar",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.2",
+    "axios": "^0.21.1",
+    "core-js": "^3.6.5",
+    "date-fns": "^2.21.1",
+    "dns": "^0.2.2",
+    "firebase": "^8.2.9",
+    "ical-generator": "^1.15.4",
+    "ics": "^2.27.0",
+    "lunar": "0.0.3",
+    "lunar-javascript": "^1.2.2",
+    "luxon": "^1.26.0",
+    "material-design-icons-iconfont": "^6.1.0",
+    "moment": "^2.29.1",
+    "node-schedule": "^2.0.0",
+    "nodemailer": "^6.6.2",
+    "register-service-worker": "^1.7.2",
+    "rrule": "^2.6.8",
+    "sweetalert": "^2.1.2",
+    "vue": "^2.6.12",
+    "vue-cookie": "^1.1.4",
+    "vue-cookies": "^1.7.4",
+    "vue-router": "^3.5.1",
+    "vue-swatches": "^2.1.1",
+    "vue-textarea-autosize": "^1.1.1",
+    "vuetify": "^2.4.0",
+    "vuex": "^3.6.2"
+  },
+  "devDependencies": {
+    "@types/nodemailer": "^6.4.2",
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-pwa": "^4.5.13",
+    "@vue/cli-service": "~4.5.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "fibers": "^5.0.0",
+    "popper.js": "^1.16.1",
+    "portal-vue": "^2.1.7",
+    "sass": "^1.32.8",
+    "sass-loader": "^7.1.0",
+    "vue-cli-plugin-vuetify": "~2.1.0",
+    "vue-template-compiler": "^2.6.11",
+    "vuetify-loader": "^1.7.0"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
